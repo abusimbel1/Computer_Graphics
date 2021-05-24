@@ -60,9 +60,6 @@ private static int maxHeight;
 
  g2d.translate(tx, ty);
  g2d.scale(scale, scale);
-//  g2d.setComposite(AlphaComposite.getInstance(AlphaComposite.SRC_OVER,
-//  (float)scale));
-
 
 GradientPaint gp = new GradientPaint(5, 25,new Color(2,50,10), 20, 2, new Color(100,90,100), true);
 g2d.setPaint(gp);

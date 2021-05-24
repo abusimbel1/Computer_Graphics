@@ -118,6 +118,8 @@ public class Main extends Application {
 
         root.getChildren().add(path);
 
+        //dolphin chest
+
         Path chest = new Path();
         MoveTo moveTo1 = new MoveTo();
         moveTo1.setX(194.0f);
@@ -190,18 +192,18 @@ public class Main extends Application {
         polyhand.setStrokeWidth(2.0);
         root.getChildren().add(polyhand);
 
-        QuadCurve quadUnder = new QuadCurve();
-        quadUnder.setStartX(265.0f);
-        quadUnder.setStartY(100.0f);
-        quadUnder.setEndX(225.0f);
-        quadUnder.setEndY(100.0f);
-        quadUnder.setControlX(244.0f);
-        quadUnder.setControlY(94.0f);
-        quadUnder.setFill(Color.rgb(48, 162, 215));
-        quadUnder.setStroke(Color.BLACK);
-        quadUnder.setStrokeWidth(1.0);
+        QuadCurve quadUnderEye = new QuadCurve();
+        quadUnderEye.setStartX(265.0f);
+        quadUnderEye.setStartY(100.0f);
+        quadUnderEye.setEndX(225.0f);
+        quadUnderEye.setEndY(100.0f);
+        quadUnderEye.setControlX(244.0f);
+        quadUnderEye.setControlY(94.0f);
+        quadUnderEye.setFill(Color.rgb(48, 162, 215));
+        quadUnderEye.setStroke(Color.BLACK);
+        quadUnderEye.setStrokeWidth(1.0);
 
-        root.getChildren().add(quadUnder);
+        root.getChildren().add(quadUnderEye);
 
         Circle circleEye1 = new Circle();
         circleEye1.setCenterX(225.0f);
@@ -262,18 +264,6 @@ public class Main extends Application {
         quadBelow.setStroke(Color.BLACK);
         quadBelow.setStrokeWidth(1.0);
         root.getChildren().add(quadBelow);
-
-        QuadCurve quadRight = new QuadCurve();
-        quadRight.setStartX(225.0f);
-        quadRight.setStartY(163.0f);
-        quadRight.setEndX(230.0f);
-        quadRight.setEndY(138.0f);
-        quadRight.setControlX(230.0f);
-        quadRight.setControlY(140.0f);
-        quadRight.setFill(Color.rgb(48, 162, 215));
-        quadRight.setStroke(Color.BLACK);
-        quadRight.setStrokeWidth(1.0);
-        root.getChildren().add(quadRight);
 
         QuadCurve leftEyebrow = new QuadCurve();
         leftEyebrow.setStartX(218.0f);
